@@ -40,5 +40,6 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
   s.requires_arc = true
   s.source       = { :http => "https://github.com/canopusiOS/Mobile-UILibrary-iOS.git", :tag => 4.2.1 }
   s.source_files = 'iOS_UILibrary/DJIUILibrary.framework'
+  s.ios.vendored_frameworks = 'iOS_UILibrary/DJIUILibrary.framework'
 
 end
