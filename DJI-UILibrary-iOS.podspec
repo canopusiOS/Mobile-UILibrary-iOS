@@ -38,7 +38,7 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
   s.author       = { "DJI SDK" => "dev@dji.com" }
   s.platform     = :ios, '8.0'
   s.requires_arc = true
-  s.source       = { :http => "https://github.com/canopusiOS/Mobile-UILibrary-iOS/tree/master/Framework"}
+  s.source       = { :http => "https://github.com/canopusiOS/Mobile-UILibrary-iOS.git"}
   s.ios.vendored_frameworks = 'iOS_UILibrary/DJIUILibrary.framework'
 
 end
