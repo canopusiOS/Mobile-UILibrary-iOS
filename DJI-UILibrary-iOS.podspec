@@ -11,7 +11,7 @@ Pod::Spec.new do |s|
   s.name         = "DJI-UILibrary-iOS"
   s.version      = "4.2"
   s.summary      = "DJI User Interface Library for iOS"
-  s.homepage     = "https://github.com/dji-sdk/Mobile-UILibrary-iOS"
+  s.homepage     = "https://github.com/canopusiOS/Mobile-UILibrary-iOS"
   s.license      = { :type => 'CUSTOM', :text => <<-LICENSE
 ****************************************************************************************************************************
 
