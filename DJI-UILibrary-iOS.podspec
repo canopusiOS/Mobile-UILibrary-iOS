@@ -9,7 +9,7 @@
 Pod::Spec.new do |s|
 
   s.name         = "DJI-UILibrary-iOS"
-  s.version      = "4.2"
+  s.version      = "4.2.1"
   s.summary      = "DJI User Interface Library for iOS"
   s.homepage     = "https://github.com/canopusiOS/Mobile-UILibrary-iOS"
   s.license      = { :type => 'CUSTOM', :text => <<-LICENSE
@@ -38,7 +38,7 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
   s.author       = { "DJI SDK" => "dev@dji.com" }
   s.platform     = :ios, '8.0'
   s.requires_arc = true
-  s.source       = { :http => "https://github.com/canopusiOS/Mobile-UILibrary-iOS.git", :tag => 4.2.1 }
+  s.source       = { :http => "https://github.com/canopusiOS/Mobile-UILibrary-iOS.git", :tag => s.version }
   s.source_files = 'iOS_UILibrary/DJIUILibrary.framework'
   s.ios.vendored_frameworks = 'iOS_UILibrary/DJIUILibrary.framework'
 
